@@ -13,6 +13,9 @@ function getTime(){
         h = h - 12;
         ampm = "PM";
     }
+    
+    h = h< 10? "0"+h : h;
+
     hour.innerText = h;
     minute.innerText = m;
     second.innerText = s;
