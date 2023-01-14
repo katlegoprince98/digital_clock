@@ -17,6 +17,10 @@ function getTime(){
     minute.innerText = m;
     second.innerText = s;
     ampm.innerText = ampm;
+    setTimeout(()=>{
+
+        getTime()
+    }, 1000)
 }
 getTime();
 
