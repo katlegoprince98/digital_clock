@@ -16,3 +16,21 @@ h1{
     letter-spacing: 3px;
     text-align: center;
 }
+.main{
+    display: flex;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+.main div{
+    margin: 6px;
+}
+.main span{
+    width: 100px;
+    height: 80px;
+    background-color: #7c7c7c7b;
+    opacity: .6;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
