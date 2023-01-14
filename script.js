@@ -1,6 +1,6 @@
 const hour = document.getElementById("hours");
-const minutes = document.getElementById("minutes");
-const seconds = document.getElementById("seconds");
+const minute = document.getElementById("minutes");
+const second = document.getElementById("seconds");
 const ampm = document.getElementById("ampm");
 
 function getTime(){
@@ -9,9 +9,15 @@ function getTime(){
     let s = new Date().getSeconds();
     let ampm = "AM";
 
+    if(h > 12){
+        h = h - 12;
+        ampm = "PM";
+    }
+    hour.innerText = h;
+    minute.innerText = m;
+    second.innerText = s;
+    ampm.innerText = ampm;
 }
+getTime();
 
-if(h > 12){
-    h = h - 12;
-    ampm = "PM";
-}
+
