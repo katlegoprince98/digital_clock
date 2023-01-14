@@ -35,3 +35,10 @@ h1{
     align-items: center;
     font-size: 25px;
 }
+.main .text{
+    height: 33px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: black;
+}
