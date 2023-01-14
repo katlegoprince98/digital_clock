@@ -12,5 +12,7 @@ body{
 }
 
 h1{
-    font: 170px;
+    font-size: 55px;
+    letter-spacing: 3px;
+    text-align: center;
 }
